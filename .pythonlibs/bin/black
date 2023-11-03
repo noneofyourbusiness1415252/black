@@ -1,6 +1,0 @@
-#!/nix/store/dl5yzvgkyqhdfycp433qykp81qp6xw3g-python3-3.11.3/bin/python3.11
-import sys
-from black import main
-
-if __name__ == '__main__':
-    sys.exit(main())
