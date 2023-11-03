@@ -1,0 +1,13 @@
+entrypoint = "main.py"
+modules = ["python-3.11:v1-20230828-e4baa21"]
+
+hidden = [".pythonlibs"]
+
+[nix]
+channel = "stable-23_05"
+
+[deployment]
+run = ["python3", "main.py"]
+deploymentTarget = "cloudrun"
+[unitTest]
+language = "python3"
